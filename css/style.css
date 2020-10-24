@@ -1,0 +1,210 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.megabox{
+    display: flex;
+    width: 100%;
+    border: 3px solid black;
+    flex-direction: column;
+}
+.bigbox{
+    display: flex;
+    width: 100%;
+     align-items: center;
+     flex-direction: row;
+     border: 3px solid blue;
+}
+.bigbox1{
+     display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+     border: 3px solid blue;
+    
+}
+.qbox{
+    display: flex;
+    width: 100%;
+     justify-content: space-around;
+     border: 3px solid yellow;
+}
+
+.qbox:hover .box{
+    background: yellow;
+}
+.qbox1:hover .box{
+    background: blue;
+}
+.qbox2:hover .box{
+    background: red;
+}
+.qbox3:hover .box{
+    background: green;
+}
+.qbox4:hover .box{
+    background: black;
+}
+
+.box{
+    width: 150px;
+    height: 100px;
+    border: 4px solid red;
+}
+@media(min-width: 481px) and (max-width: 769px){
+   .megabox{
+    display: flex;
+    width: 100%;
+    border: 3px solid black;
+    flex-direction: column;
+    align-items: center;
+    
+} 
+    .bigbox{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+       align-items: center
+} 
+    .bigbox1{
+    display: flex;
+    width: 100%;
+  
+    flex-direction: column;
+    align-items: center
+}
+    .qbox{
+        display: flex;
+    width: 100%;
+    height: 160px;
+    flex-direction: column;
+    align-items: center
+    }
+}
+
+
+
+@media(min-width: 769px) and (max-width: 1279px){
+   
+   .megabox{
+    display: flex;
+    width: 100%;
+    border: 3px solid black;
+   flex-direction: column;
+       align-items: center;
+    
+} 
+    .bigbox{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+       align-items: center
+} 
+    .bigbox1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center
+}
+    .qbox{
+        display: flex;
+    width: 100%;
+    height: 160px;
+    flex-direction: row;
+    align-items: center
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ .megabox{
+    display: flex;
+    width: 100%;
+    border: 3px solid black;
+    flex-direction: row;
+} 
+    .bigbox{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+       align-items: center
+} 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
